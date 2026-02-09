@@ -5,7 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #F8BDC3;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Rasputin', Rounded sans;
+
 }
 
 .container {
@@ -22,3 +23,34 @@ body {
     max-width: 500px; 
     height: auto; 
 }
+
+.pdf-link {
+  margin-top: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 14px 22px;
+  font-size: 1.15em;
+  font-weight: 700;
+
+  color: #ffffff;
+  text-decoration: none;
+
+    background-color: #ff6fae; /* pink */
+  border-radius: 999px;
+
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.08),
+              0px 18px 30px rgba(0, 0, 0, 0.12);
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pdf-link:hover {
+  transform: translateY(-3px) scale(1.03);
+}
+
+.pdf-link:active {
+  transform: translateY(6px) scale(0.98);
+}
+
